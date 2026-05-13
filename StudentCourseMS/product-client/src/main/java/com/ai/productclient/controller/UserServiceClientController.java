@@ -2,9 +2,8 @@ package com.ai.productclient.controller;
 
 import com.ai.productclient.Client.ProductServiceClient;
 import com.ai.productclient.Client.UserServiceClient;
-import com.ai.productservice.po.ReturnData;
-import com.ai.productservice.po.Student;
-import com.ai.productservice.po.User;
+import com.ai.productclient.model.ReturnData;
+import com.ai.productclient.model.User;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

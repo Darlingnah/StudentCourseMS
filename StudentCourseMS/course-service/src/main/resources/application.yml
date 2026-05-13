@@ -1,0 +1,21 @@
+server:
+  port: 8019
+spring:
+  application:
+    name: course-service
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/student?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.jdbc.Driver
+
+eureka:
+  instance:
+    prefer-ip-address: true
+
+
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8888/eureka

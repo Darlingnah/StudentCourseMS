@@ -1,7 +1,7 @@
 package com.ai.productclient.controller;
 
 import com.ai.productclient.Client.ProductServiceClient;
-import com.ai.productservice.po.Student;
+import com.ai.productclient.model.Student;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

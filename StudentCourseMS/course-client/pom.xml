@@ -8,9 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>product-client</artifactId>
-    <name>product-client</name>
-    <description>product-client</description>
+    <artifactId>course-client</artifactId>
+    <name>course-client</name>
+    <description>course-client</description>
     <dependencies>
 
         <!--web 模块一定要放在前面  -->
@@ -43,6 +43,18 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ai</groupId>
+            <artifactId>StudentCourseMS</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.ai</groupId>
+            <artifactId>product-client</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
     <build>

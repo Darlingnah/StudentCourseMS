@@ -1,10 +1,10 @@
-//package com.ai.productclient;
+//package com.ai.courseservice;
 //
 //import org.junit.jupiter.api.Test;
 //import org.springframework.boot.test.context.SpringBootTest;
 //
 //@SpringBootTest
-//class ProductClientApplicationTests {
+//class CourseServiceApplicationTests {
 //
 //    @Test
 //    void contextLoads() {

@@ -1,6 +1,7 @@
 package com.ai.productclient.Client;
 
-import com.ai.productservice.po.Student;
+
+import com.ai.productclient.model.Student;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

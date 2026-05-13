@@ -10,6 +10,8 @@
         <module>eureka-service</module>
         <module>product-service</module>
         <module>product-client</module>
+        <module>course-service</module>
+        <module>course-client</module>
     </modules>
     <packaging>pom</packaging>
     <description>简单的微服务案例</description>
