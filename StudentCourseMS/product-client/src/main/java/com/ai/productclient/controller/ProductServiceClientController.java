@@ -21,4 +21,8 @@ public class ProductServiceClientController {
         Student product = prodServiceClient.findByStuId(stuId);
         log.info("-------------In client    findByProductId---------------");
         return product;
-    } }
+    }
+
+}
+
+
