@@ -59,7 +59,7 @@ public class CourseServiceController {
         }
     }
 
-    @GetMapping("deleteByCourseId/{courseId}")
+    @GetMapping("/deleteByCourseId/{courseId}")
     public ReturnData deleteByCourseId(@PathVariable("courseId") Long courseId)
     {
         if(courseMapper.findCourseById(courseId) != null)

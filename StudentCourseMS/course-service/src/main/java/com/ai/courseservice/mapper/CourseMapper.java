@@ -14,7 +14,7 @@ public interface CourseMapper {
     @Insert("INSERT INTO course (courseName, credit, description, department) VALUES (#{courseName}, #{credit}, #{description}, #{department})")
     boolean newCourse(Course course);
 
-    @Update("update course set (courseName, credit, description, department) = (#{courseName}, #{credit}, #{description}, #{department}) wherer courseId = #{courseId}")
+    @Update("update course set courseName = #{courseName}, credit = #{credit}, description = #{description}, department = #{department}  where courseId = #{courseId}")
     boolean updateCourse(Course course);
 
     @Delete("delete from course where courseId = #{courseId}")
